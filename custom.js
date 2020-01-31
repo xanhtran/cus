@@ -1,9 +1,9 @@
 jQuery( function($) {
-
   setTimeout(function(){
     datepicker_reinstall();
     console.log(disable_dates);
   }, 1000);
+  
   function datepicker_reinstall(){
     var dateFormat = "yy-mm-dd",
     from = $( "#group_booking_check_in" ),
@@ -41,8 +41,4 @@ jQuery( function($) {
       return date;
     }
   }
-
 } );
-
-
-
